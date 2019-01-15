@@ -1,6 +1,6 @@
 
 <?php
-    include 'Basketball.html';
+    include 'Soccer.html';
     require_once 'login.php';
     $connection = mysqli_connect($host, $user, $pass, $db, $port)or die(mysql_error());
     $per = isset($_POST['person']) ? $_POST['person'] : false;
